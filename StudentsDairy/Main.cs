@@ -27,7 +27,7 @@ namespace StudentsDairy
         public Main()
         {
             InitializeComponent();
-            _groups = _groups = GroupsHelper.GetGroups("Wszyscy");
+            _groups = GroupsHelper.GetGroups("Wszyscy");
             InitGroupComboBox();
             RefreshDiary();
             SetColumnsHeader();
